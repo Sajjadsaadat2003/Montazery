@@ -1,0 +1,144 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    background-color: gray;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: right;
+}
+.main {
+    position: relative;
+    color: #0e5698;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border:1px solid pink;
+    font-family: Dubai Medium;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius:10px;
+}
+hr{
+    width: 31%;
+    border: none;
+    height: 2px;
+    background-color: red;
+}
+input,
+button,
+select,
+textarea {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+    line-height: 28px;
+    height: 30px;
+    padding: 0 10px;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+input{
+    text-align: right;
+}
+button {
+    background: #007bec;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+}
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	margin-top:50px;
+	color:white;
+	font-size: 26px;
+}
+#customers {
+  direction: rtl;
+  font-family: BYekan;
+  border-collapse: collapse;
+  border-color: black;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #dedede83;}
+
+#customers th {
+  text-align: center;
+  background-color: #dededea9;
+  color: black;
+}
+
+.title_Lists{
+  font-size: 25px;
+  text-align: center;
+  margin: 25px 25%;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.562);
+  color:black;
+  padding:4px;
+  text-align:center;
+  font-family: Dubai Medium;
+  width: 50%;
+}
+#img_row{
+    width: 100px;
+}
+#id_row{
+    width: 50px;
+}
+#title_row{
+    width: 70px;
+}
+.lists{
+    margin-top: 10px;
+}
+.image{
+    margin-left: 20%;
+    width: 50%;
+    color: white;
+    border: none;
+}
+.delete, .update{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+}
+.up_del_btn{
+    width: 90%;
+    margin-left: 5%;
+}
+.link-back {
+    text-decoration: none;
+    color: #ebff77;
+    font-size: 18px;
+}
+.link-back:hover {
+    color: yellow;
+    font-size: 20px;
+}

@@ -1,0 +1,51 @@
+body {
+	background-color: gray;
+	font-family: tahoma;
+	direction: rtl;
+}
+.container{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	margin-top:50px;
+	color:white;
+	font-size: 26px;
+}
+#customers {
+  direction: rtl;
+  font-family: BYekan;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #dedede;}
+
+#customers th {
+  text-align: center;
+  background-color: #dededea9;
+  color: black;
+}
+
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin: 25px 25%;
+  font-weight: bold;
+  background: rgba(170, 170, 170, 0.342);
+  color:black;
+  padding:4px;
+  text-align:center;
+  font-family: Dubai Medium;
+  width: 50%;
+  border-radius: 100px;
+}
